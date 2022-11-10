@@ -1,6 +1,6 @@
 {
   "name": "vaadin-icons",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "homepage": "https://github.com/vaadin/vaadin-icons",
   "authors": [
     "Vaadin Ltd"
@@ -19,15 +19,16 @@
   "license": "Apache-2.0",
   "ignore": [
     "**/.*",
+    "assets",
     "node_modules",
     "bower_components",
     "test",
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.1.1",
-    "iron-icon": "polymerelements/iron-icon#~1.0.5",
-    "iron-iconset-svg": "polymerelements/iron-iconset-svg#~1.0.6"
+    "polymer": "Polymer/polymer#^1.11.3",
+    "iron-icon": "polymerelements/iron-icon#^1.0.13",
+    "iron-iconset-svg": "polymerelements/iron-iconset-svg#^1.1.2"
   },
   "devDependencies": {
     "iron-component-page": "polymerelements/iron-component-page#~1.1.4"
